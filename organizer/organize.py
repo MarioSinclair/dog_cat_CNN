@@ -6,11 +6,13 @@ from sklearn.model_selection import train_test_split # For robust splitting
 # --- Configuration: PLEASE ADJUST THESE PATHS AND NUMBERS ---
 # Path to the directory where you unzipped the original Kaggle 'train' folder
 # (This folder should contain cat.0.jpg, dog.0.jpg, etc.)
-original_dataset_dir = r'C:\Users\Mario\pytorch_project\dog_cat_cnn\data\train' # Use 'r' for raw string or double backslashes on Windows
+original_dataset_dir = r'C:\Users\XXXX\tensorflow_project\dog_cat_cnn\data\train' 
+# Use 'r' for raw string or double backslashes on Windows
 
 # Path to the directory where you want to create your new organized dataset
 # (This script will create 'cats_vs_dogs_data' inside this directory)
-base_project_dir = r'C:\Users\Mario\pytorch_project\dog_cat_cnn' # e.g., where you'll also put your .ipynb file
+base_project_dir = r'C:\Users\XXXX\tensorflow_project\dog_cat_cnn' 
+# e.g., where you'll also put your .ipynb file
 
 # Number of images of each class to use from the original dataset
 # The Kaggle dataset has 12500 of each. Using a smaller number speeds up initial training.
